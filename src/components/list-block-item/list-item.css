@@ -1,0 +1,28 @@
+.list-button-block button{
+    
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: transparent;
+    margin: 2px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: .312rem;
+}
+.list-text-block{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+.list-button-block button i{
+    display: inline-block;
+    font-size: 1rem;
+    padding: .312rem;
+} 
+.edit-button i{
+    color: #faa237;
+}
+.delete-button i{
+    color: #df0404;
+}
